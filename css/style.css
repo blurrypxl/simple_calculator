@@ -32,10 +32,11 @@ body {
   border-radius: 10px;
   width: 100%;
   height: 4rem;
-  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 5px;
   background-color: white;
   box-sizing: border-box;
+  text-align: right;
   font-size: 2.5em;
   border-style: none;
 }
@@ -62,7 +63,7 @@ body {
   background-color: var(--btn-color-secondary);
 }
 .btn-section .operators:active, .equal:active {
-  background-color: orange;
+  background-color: rgb(255, 197, 88);
 }
 .btn-section .btns {
   border-radius: 10px;
